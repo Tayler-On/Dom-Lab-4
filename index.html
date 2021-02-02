@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Mini Challenges</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="question">
+      <p>Total: <span class="total">$0.00</span></p>
+      <button data-cost="2" class="cola button">Lime Cola $2.00</button>
+      <button data-cost="3" class="peanuts button">Salted Peanuts $3.00</button>
+      <button data-cost="4" class="chocolate button">
+        Chocolate Bar $4.00
+      </button>
+      <button data-cost="6" class="gummies button">Fruit Gummies $6.00</button>
+    </section>
+    <section class="question">
+      <form class="coin-form">
+        <label for="coinAmount">How many?</label>
+        <input
+          type="number"
+          id="coinAmount"
+          name="coinAmount"
+          class="coinAmount"
+        />
+        <label for="type-of-coin">Which coin?</label>
+        <select id="type-of-coin" name="type-of-coin" class="type-of-coin">
+          <option class="coin-name" value="penny">Penny</option>
+          <option class="coin-name" value="nickel">Nickel</option>
+          <option class="coin-name" value="dime">Dime</option>
+          <option class="coin-name" value="quarter">Quarter</option>
+        </select>
+
+        <button>Make Money!</button>
+      </form>
+      <div class="container coin-container">
+        <div class="container penny-container"></div>
+        <div class="container nickel-container"></div>
+        <div class="container dime-container"></div>
+        <div class="container quarter-container"></div>
+      </div>
+    </section>
+    <section class="question">
+      <div class="light-bulb">Light Bulb</div>
+      <button class="on btn">ON</button>
+      <button class="off btn">OFF</button>
+      <button class="toggle btn">Toggle</button>
+      <button class="end btn">End</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+.question {
+  margin: 20px;
+}
+
+/* #2 */
+.coin-container {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.coin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  text-align: center;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.penny {
+  height: 65px;
+  width: 65px;
+  background-color: brown;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.nickel {
+  height: 75px;
+  width: 75px;
+}
+
+.dime {
+  height: 50px;
+  width: 50px;
+}
+
+.quarter {
+  height: 100px;
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* #3 */
+
+.light-bulb {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.btn {
+  background-color: teal;
+}
+
+.light {
+  background-color: yellow;
+}
+
+.dark {
+  background-color: gray;
+}
